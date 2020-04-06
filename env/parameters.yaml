@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:samuraiisland/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:samuraiisland/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:samuraiisland/prow:hmacToken
+segmentWriteKey: vault:samuraiisland:segmentWriteKey
